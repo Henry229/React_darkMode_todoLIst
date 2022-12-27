@@ -1,0 +1,104 @@
+body {
+  background: #464b59;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 30rem;
+  margin: 5rem auto;
+}
+
+.header {
+  width: 100%;
+  height: 4rem;
+  background: #191c34;
+  border-radius: 0.5rem 0.5rem 0 0;
+  padding: 0.5rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.leftMenu {
+  font-size: 1.2rem;
+  color: white;
+}
+
+.rightMenu {
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: space-evenly;
+  color: salmon;
+}
+
+.rightMenu span {
+  margin-left: 0.9rem;
+  transition: transform 300ms ease-in;
+}
+
+.rightMenu span:hover {
+  cursor: pointer;
+  color: orange;
+  transform: scale(1.2);
+}
+
+.list {
+  background: #222439;
+  color: white;
+  font-size: 1.2rem;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 1rem 0 1rem;
+}
+
+.leftList {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.trashBtn {
+  color: white;
+  font-size: 1rem;
+  background: gray;
+  border-radius: 50%;
+  padding: 0.1rem;
+}
+
+.footer {
+  width: 100%;
+  height: 4rem;
+  background: #191c34;
+  border-radius: 0 0 0.5rem 0.5rem;
+  padding: 1rem 1rem;
+}
+
+.footerInput {
+  width: 80%;
+  height: 2rem;
+  border-radius: 7px 0 0 7px;
+  outline: none;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+}
+
+.footerBtn {
+  width: 20%;
+  height: 2rem;
+  background: orange;
+  color: white;
+  font-size: 1rem;
+  padding: 0.2rem;
+  outline: none;
+  border: none;
+  border-radius: 0 7px 7px 0;
+}
